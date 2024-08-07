@@ -510,6 +510,11 @@ hr {
 .breadcrumb > .active {
   color: #888;
 }
+/* Hide scrollbars in webkit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
 #scrollUp {
   background: #ffde17;
   height: 50px;
