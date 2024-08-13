@@ -71,12 +71,12 @@
                 <p class="pera-top">
                   In recruitment we are the partners, who win for both
                   candidates and clients. We are where opportunity meets
-                  expertise. Both locally and globally Our commitment is to
+                  expertise. Both locally and globally, our commitment is to
                   forge meaningful connections that steer lifelong careers and
-                  h help organizations reach their aspired potential.
+                  help organizations reach their aspired potential.
                 </p>
                 <div class="section-tittle section-tittle2">
-                  <h2>Our Big Hairy Audacious Gaol</h2>
+                  <h2>Our Big Hairy Audacious Goal</h2>
                 </div>
                 <p>
                   Introduce 100% of our candidates into the right roles the
@@ -190,11 +190,9 @@
         <div class="row d-flex justify-content-center">
           <div class="col-xl-8 col-lg-8 col-md-10">
             <div class="h1-testimonial-active dot-style">
-              <!-- Single Testimonial -->
+
               <div class="single-testimonial text-center">
-                <!-- Testimonial Content -->
                 <div class="testimonial-caption">
-                  <!-- founder -->
                   <div class="testimonial-founder">
                     <div class="founder-img mb-30">
                       <img src="assets/img/team/Lemogang.png" alt="" />
@@ -203,15 +201,12 @@
                     </div>
                   </div>
                   <div class="testimonial-top-cap">
-
                   </div>
                 </div>
               </div>
-              <!-- Single Testimonial -->
+
               <div class="single-testimonial text-center">
-                <!-- Testimonial Content -->
                 <div class="testimonial-caption">
-                  <!-- founder -->
                   <div class="testimonial-founder">
                     <div class="founder-img mb-30">
                       <img src="assets/img/team/Courtney.png" alt="" />
@@ -225,10 +220,8 @@
                 </div>
               </div>
               <!-- Single Testimonial -->
-              <div class="single-testimonial text-center">
-                <!-- Testimonial Content -->
+              <!-- <div class="single-testimonial text-center">
                 <div class="testimonial-caption">
-                  <!-- founder -->
                   <div class="testimonial-founder">
                     <div class="founder-img mb-30">
                       <img src="assets/img/team/Ongezwa.png" alt="" />
@@ -237,14 +230,11 @@
                     </div>
                   </div>
                   <div class="testimonial-top-cap">
-
                   </div>
                 </div>
-              </div>
+              </div> -->
               <div class="single-testimonial text-center">
-                <!-- Testimonial Content -->
                 <div class="testimonial-caption">
-                  <!-- founder -->
                   <div class="testimonial-founder">
                     <div class="founder-img mb-30">
                       <img src="assets/img/team/Jesse.png" alt="" />
@@ -253,14 +243,11 @@
                     </div>
                   </div>
                   <div class="testimonial-top-cap">
-
                   </div>
                 </div>
               </div>
               <div class="single-testimonial text-center">
-                <!-- Testimonial Content -->
                 <div class="testimonial-caption">
-                  <!-- founder -->
                   <div class="testimonial-founder">
                     <div class="founder-img mb-30">
                       <img src="assets/img/team/Alyssa.png" alt="" />
@@ -285,8 +272,12 @@
         <div class="row justify-content-center">
           <div class="col-xl-10">
             <div class="cv-caption text-center">
-              <p class="pera2">We are working for you, drop your CV here</p>
-              <a href="#" class="border-btn2 border-btn4">Upload your cv</a>
+              <p class="pera2">We are working for you, drop your CV here or create a profile</p>
+              <a href="#" onclick="handleResumeUpload()" class="border-btn2 border-btn4">Upload your cv</a>
+              <a href="#" onclick="handleResumeUpload()" class=""> </a>
+
+              <a href="#" onclick="" class="border-btn2 border-btn4">Create a profile</a>
+
             </div>
           </div>
         </div>
@@ -454,6 +445,13 @@
     </div>
     <!-- Footer End-->
   </footer>
+
+  <script>
+     function handleResumeUpload() {
+            const resumeUploadUrl = "https://it-sb.github.io/SmileyUpload/";
+            window.open(resumeUploadUrl, "_blank", "width=600,height=600");
+        }
+  </script>
 
   <!-- JS here -->
 

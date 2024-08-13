@@ -35,25 +35,26 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Please provide your name.",
+                    minlength: "Your name must be at least 2 characters long."
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "Please enter a subject.",
+                    minlength: "The subject must be at least 4 characters long."
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "Please provide a number.",
+                    minlength: "The number must be at least 5 characters long."
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "An email address is required."
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Please enter a message.",
+                    minlength: "The message must be at least 1 character long."
                 }
             },
+            
             submitHandler: function(form) {
                 $(form).ajaxSubmit({
                     type:"POST",
