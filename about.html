@@ -219,20 +219,6 @@
                   </div>
                 </div>
               </div>
-              <!-- Single Testimonial -->
-              <!-- <div class="single-testimonial text-center">
-                <div class="testimonial-caption">
-                  <div class="testimonial-founder">
-                    <div class="founder-img mb-30">
-                      <img src="assets/img/team/Ongezwa.png" alt="" />
-                      <span>Ongezwa</span>
-                      <p>Happiness Catalyst</p>
-                    </div>
-                  </div>
-                  <div class="testimonial-top-cap">
-                  </div>
-                </div>
-              </div> -->
               <div class="single-testimonial text-center">
                 <div class="testimonial-caption">
                   <div class="testimonial-founder">
@@ -256,7 +242,19 @@
                     </div>
                   </div>
                   <div class="testimonial-top-cap">
-
+                  </div>
+                </div>
+              </div>
+              <div class="single-testimonial text-center">
+                <div class="testimonial-caption">
+                  <div class="testimonial-founder">
+                    <div class="founder-img mb-30">
+                      <img src="assets/img/team/Nthabiseng.png" alt="" />
+                      <span>Nthabiseng</span>
+                      <p>Joy Instigator</p>
+                    </div>
+                  </div>
+                  <div class="testimonial-top-cap">
                   </div>
                 </div>
               </div>
@@ -273,10 +271,8 @@
           <div class="col-xl-10">
             <div class="cv-caption text-center">
               <p class="pera2">We are working for you, drop your CV here or create a profile</p>
-              <a href="#" onclick="handleResumeUpload()" class="border-btn2 border-btn4">Upload your cv</a>
-              <a href="#" onclick="handleResumeUpload()" class=""> </a>
-
-              <a href="#" onclick="" class="border-btn2 border-btn4">Create a profile</a>
+              <a href="#" onclick="handleResumeUpload()" class="border-btn2">Upload your cv</a>
+              <a href="create-profile" onclick="handleRedirect()" class="border-btn2">Create a profile</a>
 
             </div>
           </div>
@@ -447,10 +443,15 @@
   </footer>
 
   <script>
-     function handleResumeUpload() {
-            const resumeUploadUrl = "https://it-sb.github.io/SmileyUpload/";
-            window.open(resumeUploadUrl, "_blank", "width=600,height=600");
-        }
+    function handleResumeUpload() {
+      const resumeUploadUrl = "https://it-sb.github.io/SmileyUpload/";
+      window.open(resumeUploadUrl, "_blank", "width=600,height=600");
+    }
+
+    function redirectToPage(url) {
+      window.location.href = "create-profile";
+    }
+
   </script>
 
   <!-- JS here -->
